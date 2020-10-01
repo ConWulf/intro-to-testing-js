@@ -37,4 +37,11 @@ function helloWorld() {
    return parseInt(num) % 2 === 0;
  }
 
+ function isVowel(input) {
+    var vowel = "a, e, i, o, u, A, E, I, O, U";
+    for (var i = 0; i < vowel.length; i++){
+        return vowel.includes(input);
+    }
+ }
+
 
