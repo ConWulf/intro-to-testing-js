@@ -24,5 +24,17 @@ function helloWorld() {
     return "Hello, " + name + "!";
  }
 
+ function isFive(num) {
+    if(num === 5) {
+        return true;
+    }
+    return false;
+ }
+ function isEven(num) {
+    if(typeof num === "boolean") {
+        return false;
+    }
+   return parseInt(num) % 2 === 0;
+ }
 
 
