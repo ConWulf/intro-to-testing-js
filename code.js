@@ -44,4 +44,30 @@ function helloWorld() {
     }
  }
 
+ // function add(x, y) {
+ //    if (x === -3 && y === -9) {
+ //        return -12;
+ //    } else if(x === "5" && y === 6) {
+ //        return 11;
+ //    } else if(x === "-4" && y === "10") {
+ //        return 6;
+ //    }
+ //     return 5;
+ // }
+
+ // function add(x, y) {
+ //    if(x === "banana" && y === "split") {
+ //        return "NaN";
+ //    } else if(x === 2 && y === "apple") {
+ //        return "NaN"
+ //    }
+ //     return parseFloat(x) + parseFloat(y);
+ // }
+
+ function add(x, y) {
+     if(isNaN(x) || isNaN(y)) {
+         return "NaN";
+     }
+     return parseFloat(x) + parseFloat(y);
+ }
 
