@@ -8,7 +8,18 @@ function helloWorld() {
 }
  
  //define sayHello function
- 
- function sayHello() {
-    return "";
+ // function sayHello(name) {
+ //    if (name === "Alex") {
+ //        return "Hello, Alex!"
+ //    } else if (name === "Pat") {
+ //        return "Hello, Pat!"
+ //    }
+ //    return "Hello, Jane!";
+ // }
+ // refactor sayHello function
+ function sayHello(name) {
+    return "Hello, " + name + "!";
  }
+
+
+
