@@ -10,5 +10,5 @@ function helloWorld() {
  //define sayHello function
  
  function sayHello() {
-
+    return "";
  }
